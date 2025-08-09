@@ -18,6 +18,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-a4znn=vcpu%#nf1!ax-6+nmw952p4fv=-y77vj0goua-9-2!f^'
 
+ISBN_API_KEY = ''
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -40,6 +42,7 @@ INSTALLED_APPS = [
 
     # local apps
     'authentication',
+    'book',
 ]
 
 # Custom user model
